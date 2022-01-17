@@ -4,7 +4,7 @@
 En este EDA se quieren analizar los datos de uso del servicio de BiciMAD del Ayuntamiento de Madrid. Y relacionar si el uso de estas bicicletas eléctricas ha aumentado desde que se inició la pandemia en marzo de 2020. Se van a comparar datos del 2019, 2020 y 2021.
 
 ## Estructura 🗀
-- datos descargados de BiciMAD de la API del Ayuntamiento de Madrid, en formato .json (src/data/)
+- datos descargados de BiciMAD de la API del Ayuntamiento de Madrid, en formato .json (src/data/). Esta carpeta no se sube a GitHub porque son cerca de 5 Gb. La envío por email.
 - notebook principal donde se detallan todos los pasos de la analítica como el filtrado de datos y visualización (src/main.ipynb)
 - funciones auxiliares creadas para el desarrollo del proyecto (src/utils)
 - carpeta con todos los gráficos creados (src/plots/)
