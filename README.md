@@ -1,26 +1,25 @@
-# EDA 🚀
-### Ejercicio hecho para el Bootcamp en Data Science en The Bridge School
-Este proyecto se basa en una serie de análisis climatológicos de la Comunidad de Madrid para el año 2019.
+# EDA 🚲
 
-## Estructura 📦
-El proyecto consta de :
-- un notebook principal (src/main.ipynb) en el cual he recopilado/limpiado/analizado todos los dataset y finalmente sacado gráficos a partir de ellos
-- una carpeta con todos los gráficos creados (src/visualizaciones/)
-- tres notebooks con pruebas varias y analisis inicial (src/notebooks/)
-- una serie de csv encontrados en la página de aemet, que me han servido para mi análisis (src/data/)
-- una presentación hecha con Google Presentaciones y guardada en 3 formatos, por si hubiera problemas de compatibilidad de versiones (.fodp, .ppt, .pptx)
-- la memoria en formato pdf
+### EDA (Exploratory Data Analysis) | Bootcamp Data Science 2022
+En este EDA se quieren analizar los datos de uso del servicio de BiciMAD del Ayuntamiento de Madrid. Y relacionar si el uso de estas bicicletas eléctricas ha aumentado desde que se inició la pandemia en marzo de 2020. Se van a comparar datos del 2019, 2020 y 2021.
 
-## Herramientas utilizadas 🛠️
-Notebooks de Visual Studio Code con Python 3, Google Presentaciones
+## Estructura 🗀
+- datos descargados de BiciMAD de la API del Ayuntamiento de Madrid, en formato .json (src/data/)
+- notebook principal donde se detallan todos los pasos de la analítica como el filtrado de datos y visualización (src/main.ipynb)
+- funciones auxiliares creadas para el desarrollo del proyecto (src/utils)
+- carpeta con todos los gráficos creados (src/plots/)
+- no he guardado los notebooks con pruebas por lo que no he creado esta carpeta (src/notebooks/)
+- presentación de PowerPoint guardada en .ppt, versión de 1997-2003 y PDF
+- memoria en PDF
 
-## Datos utilizados 📖
-Para todo el proyecto he usado información encontrada en la página de aemet, aunque en general éstas han sido mis fuentes:
-- www.aemet.es
-- www.embalses.net
-- www.canaldeisabelsegunda.es
-- www.ree.es
-- www.ine.es
+## Herramientas utilizadas ⚙
+- Notebooks de Visual Studio Code con Python 3
+- PowerPoint
 
-## Autor ✒️
-Silvia Pasinato - Estudiante del Bootcamp de Data Science
+## Fuente de datos 🕶
+Se ha utilizado la web del Ayuntamiento de Madrid donde se encuentran los datos de BiciMAD:
+- https://datos.madrid.es/portal/site/egob/
+- https://opendata.emtmadrid.es/Datos-estaticos/Datos-generales-(1)
+
+## Autor 🖥
+Ana Genua - Estudiante del Bootcamp de Data Science
